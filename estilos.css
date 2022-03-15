@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+.contProd{
+    border: solid red;
+    height: auto;
+    width: 180px;
+    margin: 20px;
+}
+
+
+#foto{
+    border: solid blue;
+    height: 250px;
+    width: 180px;
+    background-image: url(../);
+}
+
+.nombre{
+    text-transform: uppercase;
+}
+
+.precio{
+    text-transform: uppercase;
+
+}
+
+#btn{
+    height: 50px;
+    width: 100%;
+}
+
+#lista{
+    border: solid blue;
+}
+
+#template{
+    border: solid red;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+#boton{
+    display: flex;
+    flex-direction: column;
+}
